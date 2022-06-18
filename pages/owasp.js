@@ -2,7 +2,7 @@ import {useState} from 'react';
 import Image from "next/image"
 import axios from "axios"
 
-function owasp() {
+function Owasp() {
     const [sqlData,setSqlData] = useState(null)
     const [payload,setpayload] = useState('')
 
@@ -126,4 +126,4 @@ function owasp() {
   )
 }
 
-export default owasp
+export default Owasp
