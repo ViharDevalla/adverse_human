@@ -18,7 +18,6 @@ export default function Home() {
             The Adverse Human
           </h1>
           <h2 className='px-5 md:px-24 py-1 md:py-5 md:text-4xl font-bold'>Protection Personified.</h2>
-          <button className='ml-5 md:ml-24 md:mt-5 px-2 md:px-4 py-1 md:py-3 bg-gray-100 hover:bg-gray-300 text-gray-900 text-xs md:text-xl font-bold rounded-full'>Know More</button>
         </div>
           <video autoPlay loop muted className="w-screen z-0 absolute">
             <source src="/bg_vid.mp4" type="video/mp4" />Your browser does not support the video tag.
@@ -33,9 +32,7 @@ export default function Home() {
             <div className="lg:text-center">
               <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">Our Features</h2>
               <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-100 sm:text-4xl">Defence in Depth for Everyone</p>
-              <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              Once upon a time, there lived a ghost...
-              </p>
+              
             </div>
             <div className="mt-10">
               <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10">
@@ -49,9 +46,7 @@ export default function Home() {
                     </div>
                     <p className="ml-16 text-lg leading-6 font-medium text-gray-100">OWASP Top 10</p>
                   </dt>
-                  <dd className="mt-2 ml-16 text-base text-gray-500">
-                  Once upon a time, there lived a ghost...
-                  </dd>
+                  
                 </div>
                 <div className="relative">
                   <dt>
@@ -63,7 +58,6 @@ export default function Home() {
                     </div>
                     <p className="ml-16 text-lg leading-6 font-medium text-gray-100">Open Source Intelligence</p>
                   </dt>
-                  <dd className="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
                 </div>
                 <div className="relative">
                   <dt>
@@ -75,7 +69,6 @@ export default function Home() {
                     </div>
                     <p className="ml-16 text-lg leading-6 font-medium text-gray-100">Firewall Protection</p>
                   </dt>
-                  <dd className="mt-2 ml-16 text-base text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
                 </div>
               </dl>
             </div>
